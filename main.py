@@ -11,7 +11,8 @@ load_dotenv()
 
 ca = certifi.where()
 origins = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://iwillprotest.vercel.app"
 ]
 
 app.add_middleware(
